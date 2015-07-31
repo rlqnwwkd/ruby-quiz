@@ -1,0 +1,14 @@
+def CheckNums(num1,num2)
+
+  cal=num1-num2
+  
+  if cal<0
+    s=true
+  elsif cal>0
+    s=false
+  else
+    s="-1"
+  end
+    return s 
+         
+end
